@@ -1,4 +1,7 @@
-![](https://user-images.githubusercontent.com/61596919/158486947-76aed354-49a5-4565-a371-3486ba508291.png) 
+<table>
+  <tr>
+    <td align=center><img src=https://user-images.githubusercontent.com/61596919/158486947-76aed354-49a5-4565-a371-3486ba508291.png raw=true" width="800" height="400" style="max-width: 100%;"></td></tr></table>
+
 
 <div data-target="readme-toc.content" class="Box-body px-5 pb-5">
           <article class="markdown-body entry-content container-lg" itemprop="text">
