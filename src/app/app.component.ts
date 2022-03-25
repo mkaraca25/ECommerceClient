@@ -9,5 +9,5 @@ export class AppComponent {
   title = 'ECommerceClient';
 }
 $(document).ready(()=>{
-  alert("Melik KARACA")
+  alert("Full Stack Developer Melik KARACA")
 })
