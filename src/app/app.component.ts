@@ -8,6 +8,6 @@ declare var $:any
 export class AppComponent {
   title = 'ECommerceClient';
 }
-$(document).ready(()=>{
+/*$(document).ready(()=>{
   alert("Full Stack Developer Melik KARACA")
-})
+})*/
