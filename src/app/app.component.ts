@@ -10,14 +10,14 @@ declare var $:any
 export class AppComponent {
   title = 'ECommerceClient';
   constructor(private toastrService:CustomToastrService) {
-    toastrService.message("Hello","Melik",{messageType:ToastrMessageType.Info,
+    /*toastrService.message("Hello","Melik",{messageType:ToastrMessageType.Info,
     position:ToastrPosition.TopCenter});
     toastrService.message("Hello","Melik",{messageType:ToastrMessageType.Success,
       position:ToastrPosition.TopLeft});
     toastrService.message("Hello","Melik",{messageType:ToastrMessageType.Warning,
       position:ToastrPosition.BottomFullWidth});
     toastrService.message("Hello","Melik",{messageType:ToastrMessageType.Error,
-      position:ToastrPosition.TopRight});
+      position:ToastrPosition.TopRight});*/
   }
 }
 /*$(document).ready(()=>{
