@@ -9,16 +9,16 @@ declare var $:any
 })
 export class AppComponent {
   title = 'ECommerceClient';
-  constructor(private toastrService:CustomToastrService) {
-    /*toastrService.message("Hello","Melik",{messageType:ToastrMessageType.Info,
+  /*constructor(private toastrService:CustomToastrService) {
+    toastrService.message("Full Stack Developer","Melik KARACA",{messageType:ToastrMessageType.Info,
     position:ToastrPosition.TopCenter});
-    toastrService.message("Hello","Melik",{messageType:ToastrMessageType.Success,
+    toastrService.message("Data Scientist","Melik KARACA",{messageType:ToastrMessageType.Success,
       position:ToastrPosition.TopLeft});
-    toastrService.message("Hello","Melik",{messageType:ToastrMessageType.Warning,
+    toastrService.message("Computer Engineer","Melik KARACA",{messageType:ToastrMessageType.Warning,
       position:ToastrPosition.BottomFullWidth});
-    toastrService.message("Hello","Melik",{messageType:ToastrMessageType.Error,
-      position:ToastrPosition.TopRight});*/
-  }
+    toastrService.message("Software Developer","Melik KARACA",{messageType:ToastrMessageType.Error,
+      position:ToastrPosition.TopRight});
+  }*/
 }
 /*$(document).ready(()=>{
   alert("Full Stack Developer Melik KARACA")
