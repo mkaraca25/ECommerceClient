@@ -10,7 +10,7 @@ export class ProductService {
 
   constructor(private httpClientService:HttpClientService) { }
 
-  create(product: Create_Product ,successCallBack?:any,errorCallBack?:any){
+  create(product: Create_Product ,successCallBack?:any,errorCallBack?:(errorMessage: string)=>void){
     this.httpClientService.post({
       controller: "products"
     },product)
