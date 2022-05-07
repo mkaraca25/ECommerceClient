@@ -1,3 +1,4 @@
+import { DeleteDirective } from './../../../directives/admin/delete.directive';
 import { RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
@@ -17,14 +18,16 @@ import { MatPaginatorModule } from '@angular/material/paginator';
   declarations: [
     ProductsComponent,
     CreateComponent,
-    ListComponent
+    ListComponent,
+    DeleteDirective
   ],
   imports: [
     CommonModule,
     RouterModule.forChild([{
       path:"",component: ProductsComponent
     }]),
-    MatSidenavModule,MatFormFieldModule,MatInputModule,MatButtonModule,MatTableModule,MatPaginatorModule
+    MatSidenavModule,MatFormFieldModule,MatInputModule,
+    MatButtonModule,MatTableModule,MatPaginatorModule
   ]
 })
 export class ProductsModule { }
