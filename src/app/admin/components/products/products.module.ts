@@ -1,3 +1,4 @@
+import { DialogModule } from 'src/app/dialogs/dialog.module';
 import { DeleteDirective } from './../../../directives/admin/delete.directive';
 import { RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
@@ -23,7 +24,7 @@ import { FileUploadModule } from 'src/app/services/common/file-upload/file-uploa
     CreateComponent,
     ListComponent,
     DeleteDirective,
-    DeleteDialogComponent
+    
 
   ],
   imports: [
@@ -33,7 +34,7 @@ import { FileUploadModule } from 'src/app/services/common/file-upload/file-uploa
     }]),
     MatSidenavModule,MatFormFieldModule,MatInputModule,
     MatButtonModule,MatTableModule,MatPaginatorModule,MatDialogModule,
-    FileUploadModule
+    FileUploadModule,DialogModule
   ]
 })
 export class ProductsModule { }
